@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etRegisterPassword" type="id">s</item>
+    <item name="etRegisterUsername" type="id">ad</item>
+    <item name="recyclerView" type="id">t</item>
+</resources>

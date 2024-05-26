@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zapatos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="descripci_n">Descripción:</string>
+    <string name="precio">Precio:</string>
+    <string name="url_de_la_imagen">URL de la imagen:</string>
+    <string name="agregar">Agregar</string>
+    <string name="ver_zapatos">ver zapatos</string>
+    <string name="administrar_zapatos">Administrar zapatos</string>
+    <!-- Add other strings as necessary -->
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+</resources>

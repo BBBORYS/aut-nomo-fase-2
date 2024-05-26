@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#4D4FF8E5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/shoeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shoeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1DE4D4"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <EditText
+        android:id="@+id/editableField1"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#FAFBFB"
+        android:hint="marca de zapato"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editableField2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:hint="Color de zapato"
+        android:background="#FBFBFB"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editableField3"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:hint="costo del zapato"
+        android:background="#FAFBFB"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/shoeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/ic_input_add" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:background="#8A26A503">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:layout_marginStart="16dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
